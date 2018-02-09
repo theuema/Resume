@@ -1,5 +1,5 @@
 # resume_git
-my 'actual' resume
+my 'actual' resume!
 
 This resume uses code, the ideas, and layout from https://github.com/deedy/Deedy-Resume. 
 
