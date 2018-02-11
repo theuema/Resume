@@ -1,0 +1,242 @@
+% --------------------------------------------------------------
+%     define documentclass from .cls intro
+% --------------------------------------------------------------
+
+\documentclass[]{resume}
+\begin{document}
+	
+% --------------------------------------------------------------
+%     insert last update
+% --------------------------------------------------------------
+\lastupdated
+
+%%%%%%%%%###%%%%%%%% PAGE ONE %%%%%%%%%###%%%%%%%%
+
+%%%%%%%%%%%%%
+%     TITLE AREA
+%%%%%%%%%%%%%
+
+% --------------------------------------------------------------
+%     contact data & picture
+% --------------------------------------------------------------
+
+%\titlesection{Name}{Surname}{picture.jpg}{additional contact information}
+\titlesection{Mario}{Theuermann}{profile.jpg}{\urlstyle{same}
+	\href{mailto:mario.theuermann@student.tugraz.at}{mario.theuermann@student.tugraz.at} \\ 
+	+43 664/5405559 | 25.08.1987
+}
+\vfill
+%%%%%%%%%%%%%
+%     COLUMN ONE
+%%%%%%%%%%%%%
+\begin{minipage}[t]{0.33\textwidth} 
+% --------------------------------------------------------------
+%     education
+% --------------------------------------------------------------
+\section{Education} 
+	\subsection{University of Technology}
+		\descript{BS in Software Development}
+		\sheader{Graz, Austria}	
+		BS degree program: \\
+		Software Development \& Business Management (F 033 524)\\
+		Currently writing BS Thesis | Sem. 7 \\
+		Expected grad. Mar 2018
+	\sectionsep
+
+	\subsection{WIMO}
+		\descript{Berufsreifeprüfung}
+		\sheader{Klagenfurt, Austria}
+		Qualification to attend university \\ 
+		Grad. Jul 2014
+	\sectionsep
+
+% --------------------------------------------------------------
+%     skills
+% --------------------------------------------------------------
+\section{Skills}
+	\sheader{Languages:}
+	C \textbullet{} C++ \textbullet{} Java \textbullet{} Javascript \textbullet{} Python \\ \sectionsep 
+	\sheader{Tools:}
+	Git \textbullet{} Vim \textbullet{} z3 \textbullet{} KLEE \textbullet{} Docker\\ 
+	various Unix Tools \\ \sectionsep 
+	\sheader{Libraries:}
+	numpy \textbullet{} sciPy \\ \sectionsep 
+	\sheader{Databases:}
+	SQL\\ \sectionsep 
+	\sheader{Communication:}
+	english (C1-level) \textbullet{} german (native)
+	
+\end{minipage}\quad %for a bigger space between minipages
+%%%%%%%%%%%%%
+%     COLUMN TWO
+%%%%%%%%%%%%%
+\begin{minipage}[t]{0.66\textwidth} 	
+% --------------------------------------------------------------
+%     Working Experience
+% --------------------------------------------------------------
+\section{Working Experience}
+	\runsubsection{IAIK} \descript{| Intern }
+	\sheader{Institute of Applied Information Processing and Communications}
+	\sheader{Aug 2017 – Oct 2017 | Graz, Austria}
+	\vspace{\topsep} % Hacky fix for awkward extra vertical space
+	\begin{tightemize}
+		
+		\item The goal of my internship was to fully encrypt the system memory of a SoC emulation using QEMU.
+		\item Used yocto to create my own linux distribution from scratch.
+		\item Customised linux system for the Xilinx Zynq7 SoC with ARM architecture. 
+
+	\end{tightemize}
+	\sectionsep
+
+% --------------------------------------------------------------
+	\runsubsection{Lam Research} \descript{| Electrical Engineer }
+	\sheader{Sep 2012 – Aug 2014 | Fremont, CA \& Villach, Austria}
+	%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+	\begin{tightemize}
+		
+		\item Gave assistance in assembly of a complete new LAM platform prototype design and electrical environment in pilot clean department in Fremont, California.
+		\item Support engineering activities such as design, test, modification, fabrication and assembly of prototype electro mechanical systems and experimental design circuitry. 	
+		\item Attendee in feasibility studies and testing on new and modified designs.
+		\item Structured diagnostic and troubleshooting in a wide spectrum of hardware, software and networking needs. 
+		
+	\end{tightemize}
+	\sectionsep
+
+% --------------------------------------------------------------
+	\runsubsection{Lam Research}
+	\descript{| Electrical Engineer}
+	\sheader{May 2010 – Sep 2012 | Villach, Austria}
+	\begin{tightemize}
+		
+		\item Electrical assembly of LAM platforms. Basis was the configuration and documentation (e.g. production schedule, mechanical drawings, wiring diagrams, internal test record).
+		\item Electrical assembly of special customer requests.
+		\item Involved with setting up motion devices and therefore executing software tasks.
+		
+	\end{tightemize}
+	\sectionsep
+% --------------------------------------------------------------
+	\runsubsection{SEZ \& Lam Research}
+	\descript{| Engineer \& Quality Assurance Engineer}
+	\sheader{Sep 2006 – Apr 2010 | Villach, Austria}
+	\begin{tightemize}
+		
+	\item Basically: acquired the basics for further challenges within this company. 
+	\item Worked as temporary worker.
+	
+	\end{tightemize}
+	\sectionsep
+% --------------------------------------------------------------
+	\runsubsection{SEZ AG}
+	\descript{| Apprenticeship Mechatronics Engineer}
+	\sheader{Sep 2002 – Mar 2006 | Villach, Austria}
+	\begin{tightemize}
+
+		\item Apprenticeship in Mechatronics.
+		\item Combination of electrical, mechanical and computer science skills.
+		\item Graduate with good success.
+		
+	\end{tightemize}
+	\sectionsep
+% --------------------------------------------------------------	
+\end{minipage} 
+\vfill \vfill \vfill \vfill
+\pagebreak
+%%%%%%%%%###%%%%%%%% PAGE TWO %%%%%%%%%###%%%%%%%%
+
+%%%%%%%%%%%%%
+%     TITLE AREA
+%%%%%%%%%%%%%
+
+% --------------------------------------------------------------
+%     contact data & picture
+% --------------------------------------------------------------
+
+%\titlesection{Name}{Surname}{picture.jpg}{additional contact information}
+\titlesection{Mario}{Theuermann}{profile.jpg}{\urlstyle{same}
+	\href{mailto:mario.theuermann@student.tugraz.at}{mario.theuermann@student.tugraz.at} \\ 
+	+43 664/5405559 | 25.08.1987
+}
+\vfill
+%%%%%%%%%%%%%
+%     COLUMN ONE
+%%%%%%%%%%%%%
+\begin{minipage}[t]{0.33\textwidth} 
+% --------------------------------------------------------------
+%     coursework
+% --------------------------------------------------------------
+\section{Coursework}
+	\subsection{Undergraduate}
+		Analysis T1 \\
+		Data Structures \& Algorithms \\
+		Object-oriented Analysis \& Design \\
+		Software Maintenance \\
+		Computational Intelligence\\
+		Computer Vision \& Graphics \\
+		Systems Programming \\
+		Operating Systems \\
+		Information Security \& Networking
+		\sectionsep
+	
+	\subsection{Postgraduate}
+		Verification \& Testing
+		\sectionsep	
+
+% --------------------------------------------------------------
+%     interests
+% --------------------------------------------------------------
+\section{Interests} 
+	\subsection{professional}
+	IT-security \textbullet{} cryptography\\
+	embedded systems \textbullet{} OS containers\\
+	operating systems \textbullet{} different distributions\\
+	emulation \textbullet{} various package managers\\
+	computational intelligence
+	\sectionsep
+
+	\subsection{personal}
+	\sheader{Music:}
+	%Besides my perfectly organized collection of digital audio in HQ-mp3, lossless files or spotify, i do have too expensive headphones for every situation imaginable. \\ \sectionsep 
+	Expressing my love to music through extravagant and overly priced headphones while actively blocking out the remaining world around me. \\ \sectionsep
+	\sheader{Sports and Health}
+	Thanks to my mostly sedentary profession I enjoy keeping my body energetic and dynamic through strength training. \\ \sectionsep 
+	\sheader{Nature:}
+	Coming straight from a mountain in Carinthia, I get a kick out of fresh air in a quiet and natural environment. 
+	\sectionsep
+% --------------------------------------------------------------
+%     handles
+% --------------------------------------------------------------
+\section{Handles} 
+	Telegram:// \href{https://telegram.me/theuema}{\textbf{theuema}} \\ \smallsep 
+	Xing:// \href{https://www.xing.com/profile/Mario_Theuermann}{\textbf{xing.to/theuema}} \\ \smallsep 
+	LinkedIn:// \href{https://www.linkedin.com/in/theuema}{\textbf{at.linkedin.com/in/theuema}} \\ \smallsep 
+	Github:// \href{https://github.com/theuema}{\textbf{github.com/theuema}} \\ \smallsep 
+	Twitter:// \href{https://twitter.com/mariosellus}{\textbf{@mariosellus}} \\ \smallsep 
+
+\end{minipage}\quad %for a bigger space between minipages
+%%%%%%%%%%%%%
+%     COLUMN TWO
+%%%%%%%%%%%%%
+\begin{minipage}[t]{0.66\textwidth} 
+% --------------------------------------------------------------
+%     recent experience
+% --------------------------------------------------------------
+	\section{Recent Experience} 
+		\sheader{2018: Verification \& Testing}
+		In this course we used \textit{Static Analysis} and \textit{Hoare Logic} to find possible bugs in a specific source code. We also had to automate identification of deadlocks running two threads continuously. Heard about BFS \& DFS in context of the \textit{Java Path Finder}.  \sectionsep
+	
+		\sheader{2017 / 2018: BS Thesis}
+		My thesis and practical work is about simulating a modern last level CPU-cache behaviour using QEMU. It will be possible to customize the cache in terms of cache line replacement policy, cache size and timing. The goal is to quickly and efficiently simulate side channel attacks on emulated hardware. \sectionsep
+	
+		\sheader{2017: Introduction to Information Security}
+		By taking this course i completed a challenge called \textit{C Security Challenge}. The goal was to exploit pre-written code (C \& C++) changing its behavior to get a flag placed in an area that should be protected from not permitted access (CTF). \sectionsep
+		
+		\sheader{2017: Distributed Systems}
+		Implemented a distributed system that uses message channels and message queues to perform distributed calculations. Therefore gained experience in client/server logic, websocket technology and javascript. \sectionsep
+		
+		\sheader{2016: Operating Systems}
+		A group-project to realize a small operating system called \textit{SWEB}. \\ 
+		Main parts: Use and implement functions nearly similar to POSIX standard; Implement multi-threading compatibility; Implement memory management;\sectionsep 
+		
+\end{minipage} 
+\vfill \vfill \vfill \vfill
+\end{document} 

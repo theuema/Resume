@@ -1,0 +1,35 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     probably needed stuff [backup]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% --------------------------------------------------------------
+%     research
+% --------------------------------------------------------------
+
+%\section{Research}
+%\runsubsection{Cornell Robot Learning Lab}
+%\descript{| Head Undergrad Research}
+%\location{Jan 2014 – Present | Ithaca, NY}
+%Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  Publication submitted.
+%\sectionsep
+
+% --------------------------------------------------------------
+%     awards
+% --------------------------------------------------------------
+%
+%\section{Awards} 
+%\begin{tabular}{rll}
+%2014	     & top 52/2500  & KPCB Engineering Fellow\\
+%2014	     & 2\textsuperscript{nd} most points  & Google Code Jam, Qualification Round\\
+%2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
+%2013	     & National  & Jump Trading Challenge Finalist\\
+%2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
+%2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+%2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+%2010     & National & Comp. Soc. of India's National Programming Contest\\
+%\end{tabular}
+%\sectionsep
+
+% --------------------------------------------------------------
+%     old titlepage
+% --------------------------------------------------------------
+
