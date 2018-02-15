@@ -1,6 +1,6 @@
 # resume_git
-my 'actual' resume!
+This is an easy and modern resume template.
 
-This resume uses code, ideas, and fonts from https://github.com/deedy/Deedy-Resume. 
+It uses code, ideas, and fonts from https://github.com/deedy/Deedy-Resume. 
 
-I do changed a few layout things to fit my needs, added commands and made it multi page tho.
+I do changed a few layout things to fit my needs, added various commands and made it multi page tho.
