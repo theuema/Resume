@@ -1,4 +1,4 @@
-# resume_git
+# resume
 This is an easy and modern resume template. <br />
 Build with XeLaTeX. <br />
 
