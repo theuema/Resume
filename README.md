@@ -9,4 +9,4 @@ Build with XeLaTeX. <br />
 * I did change a few layout things to fit my needs, added various commands and made it multi page.<br /><br />
 * The resume example actually uses a fictional character from the tv series "The IT Crowd", which i really recommend watching.
 
-View [Example](resume.pdf)!
+View [Example](resume.pdf).
