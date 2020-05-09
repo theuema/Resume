@@ -3,6 +3,9 @@
 *.log
 *.out
 *.gz
+*.fls
+*.xdv
+*.fdb_latexmk
 
 # Mac Stuff
 .DS_Store
