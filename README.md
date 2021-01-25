@@ -1,5 +1,5 @@
 ## Resume
-View my actual [Resume](https://github.com/theuema/Resume/blob/my_resume/resume.pdf).
+View my current [Resume](https://github.com/theuema/Resume/blob/my_resume/resume.pdf).
 
 ## Resume Template
 This is an easy and modern resume template. <br />
