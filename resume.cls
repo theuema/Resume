@@ -84,29 +84,33 @@ Last Updated on \today
 % Section seperators 
 \usepackage{titlesec}
 %\titlespacing{\section}{0pt}{0pt}{0pt} 
-\titlespacing{\section}{0pt}{0pt}{10pt} %plus 2pt minus 2pt}
-\titlespacing{\subsection}{0pt}{0pt}{0pt}
-%\titlespacing{\subsection}{0pt}{0pt}{5pt plus 2pt minus 2pt}
-\newcommand{\sectionsep}{\vspace{7pt}}
+\titlespacing{\section}{0pt}{0pt}{11pt} %plus 2pt minus 2pt}
+%\titlespacing{\subsection}{0pt}{0pt}{0pt}
+\titlespacing{\subsection}{0pt}{0pt}{5pt plus 2pt minus 2pt}
+\newcommand{\sectionsep}{\vspace{11pt}}
+\newcommand{\medsep}{\vspace{4pt}}
 \newcommand{\smallsep}{\vspace{2pt}}
 
 % Headings command
 \titleformat{\section}{\color{headings}
-\scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{}{0em}{}
+\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{16pt}{24pt}\selectfont \raggedright\uppercase}{}{0em}{}
+%todo: \scshape no sc shape for lato?
 
 % Subeadings command
 \titleformat{\subsection}{
-\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase}{}{0em}{}
+\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\uppercase}{}{0em}{}
+%todo: \bfseries no bold shape for lato?
 \newcommand{\runsubsection}[1]{
-\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\bfseries\uppercase {#1} \normalfont}
+\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bol}\fontsize{12pt}{12pt}\selectfont\uppercase {#1} \normalfont}
+%todo: \bfseries no bold shape for lato?
 
 % Descriptors command
 \newcommand{\descript}[1]{
-\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}
+\color{subheadings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\ } \normalfont}%todo: \scshape no sc shape for lato?
 
 % sheader command
 \newcommand{\sheader}[1]{
-\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\ \smallsep} \normalfont}
+\color{headings}\raggedright\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1 \\ \smallsep} \normalfont}
 
 % Bullet Lists 
 \newenvironment{tightemize}{
